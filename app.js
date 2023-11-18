@@ -32,9 +32,8 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    // "mongodb://hackfooduser:hack123456789@cluster0-shard-00-00.fsvp3.mongodb.net:27017,cluster0-shard-00-01.fsvp3.mongodb.net:27017,cluster0-shard-00-02.fsvp3.mongodb.net:27017/Database?ssl=true&replicaSet=atlas-plnyra-shard-0&authSource=admin&retryWrites=true&w=majority"
-
     "mongodb://gear5:Pankaj123@ac-15547vh-shard-00-00.rvn7n2l.mongodb.net:27017,ac-15547vh-shard-00-01.rvn7n2l.mongodb.net:27017,ac-15547vh-shard-00-02.rvn7n2l.mongodb.net:27017/?replicaSet=atlas-4ld7vt-shard-0&ssl=true&authSource=admin"
+    // "mongodb://pankaj:pankaj1251@ac-knjjokr-shard-00-00.lyebvca.mongodb.net:27017,ac-knjjokr-shard-00-01.lyebvca.mongodb.net:27017,ac-knjjokr-shard-00-02.lyebvca.mongodb.net:27017/?replicaSet=atlas-j91vfh-shard-0&ssl=true&authSource=admin"
   )
   .then((result) => {
     console.log("connected");
